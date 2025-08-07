@@ -14,7 +14,10 @@ Implements a credit card validator using Luhn's Algorithm. Takes a credit card n
 
 **Files:**
 
-- `credit.c`
+- `credit`
+- `credit.c` - Orignal Solution / Submitted solution
+- `credit2.c` - Revised Solution
+- `credit2.out`
 - `cs50.h`
 - `cs50.c`
 
@@ -27,7 +30,9 @@ Implements a greedy algorithm to calculate the minimum number of coins needed to
 **Files:**
 
 - `cash.c` – Original solution
+- `cash`
 - `cash2.c` – Revised solution / Submitted solution
+- `cash2`
 - `cs50.h`
 - `cs50.c`
 
@@ -40,6 +45,7 @@ Prints a right-aligned pyramid of hashes (#) similar to Mario from Super Mario B
 **Files:**
 
 - `mario.c`
+- `mario`
 - `cs50.h`
 - `cs50.c`
 
@@ -52,6 +58,7 @@ Prints a right-aligned pyramid and a left-aligned pyramid with a gap in the midd
 **Files:**
 
 - `mario.c`
+- `mario`
 - `cs50.h`
 - `cs50.c`
 
@@ -63,7 +70,8 @@ A simple program that prints your name using formatted input and output function
 
 **Files:**
 
-- `me.c`
+- `hello.c`
+- `hello`
 - `cs50.h`
 - `cs50.c`
 
@@ -75,7 +83,8 @@ My first "Hello, World!" program in C to get familiar with syntax and compilatio
 
 **Files:**
 
-- `world.c`
+- `hello.c`
+- `hello`
 - `cs50.h`
 - `cs50.c`
 
