@@ -109,4 +109,4 @@ program_name.exe
 
 **Harshit R. Sethi**  
 B.Tech IT, First Year @ IIIT Allahabad  
-[GitHub](https://github.com/HarshitRSethi) | [LinkedIn](https://linkedin.com/in/harshit-r-sethi)
+[GitHub](https://github.com/HarshitRSethi) | [LinkedIn](https://linkedin.com/in/harshitrsethi)
