@@ -8,7 +8,20 @@ Each folder includes the source code, CS50 library, and (where applicable) an ex
 
 ## 📁 Folder Structure
 
-### 1. `scrabble/`
+### 1. `readability/`
+
+This program analyzes a block of text and calculates its U.S. grade-level readability using the Coleman-Liau index. It counts letters, words, and sentences, then outputs the corresponding reading grade.
+
+**Files:**
+
+- `readability.out`
+- `readability.c`
+- `cs50.h`
+- `cs50.c`
+
+---
+
+### 2. `scrabble/`
 
 A simple word point game played between two players, whose scoring is based on non-typical alphabets of english language used in your word. Player scoring more points win.
 
@@ -21,7 +34,7 @@ A simple word point game played between two players, whose scoring is based on n
 
 ---
 
-### 2. `credit/`
+### 3. `credit/`
 
 Implements a credit card validator using Luhn's Algorithm. Takes a credit card number as input and prints the card type (AMEX, MASTERCARD, VISA, or INVALID). Currently only the original (US Based Version) is made, I'm working on an Indian version and will update it soon.
 
@@ -36,7 +49,7 @@ Implements a credit card validator using Luhn's Algorithm. Takes a credit card n
 
 ---
 
-### 3. `cash/`
+### 4. `cash/`
 
 Implements a greedy algorithm to calculate the minimum number of coins needed to make change for a given dollar amount. Again, I'm also working on an Indian equivalent of this program.
 
@@ -51,7 +64,7 @@ Implements a greedy algorithm to calculate the minimum number of coins needed to
 
 ---
 
-### 4. `mario-less/`
+### 5. `mario-less/`
 
 Prints a right-aligned pyramid of hashes (#) similar to Mario from Super Mario Bros., using user-defined height.
 
@@ -64,7 +77,7 @@ Prints a right-aligned pyramid of hashes (#) similar to Mario from Super Mario B
 
 ---
 
-### 5. `mario-more/`
+### 6. `mario-more/`
 
 Prints a right-aligned pyramid and a left-aligned pyramid with a gap in the middle, a more advanced version of the Mario pyramid.
 
@@ -77,7 +90,7 @@ Prints a right-aligned pyramid and a left-aligned pyramid with a gap in the midd
 
 ---
 
-### 6. `me/`
+### 7. `me/`
 
 A simple program that prints your name using formatted input and output functions.
 
@@ -90,7 +103,7 @@ A simple program that prints your name using formatted input and output function
 
 ---
 
-### 7. `world/`
+### 8. `world/`
 
 My first "Hello, World!" program in C to get familiar with syntax and compilation.
 
