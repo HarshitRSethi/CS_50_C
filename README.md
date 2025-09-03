@@ -1,6 +1,6 @@
 # CS_50_C
 
-This repository contains my solutions to Week 1 and Week 2 of Harvard's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x/) course. All programs are written in C and compiled using the `make` command with `cs50.c` and `cs50.h`.
+This repository contains my solutions to Week 1-4 of Harvard's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x/) course. All programs are written in C and compiled using the `make` command with `cs50.c` and `cs50.h`.
 
 Each folder includes the source code, CS50 library, and (where applicable) an executable generated during testing.
 
@@ -8,7 +8,23 @@ Each folder includes the source code, CS50 library, and (where applicable) an ex
 
 ## 📁 Folder Structure
 
-### 1. `volume/`
+### 1. `filter-less/`
+
+This file implements three fundamental image transformations — grayscale, sepia, and reflect — which together demonstrate how pixel manipulation changes the look and feel of an image. Grayscale reduces each pixel to a uniform brightness, sepia adds a warm vintage tone, and reflect flips the image horizontally. Collectively, these functions showcase both the mathematical precision and logical structuring needed for image processing. It only work on .bmp images.
+
+**Files:**
+
+- `filter.c` - Provided by CS 50
+- `helpers.c` - written by me, contain the three filters algorithm
+- `filter.h` - Provided by CS50
+- `helpers.h` - Provided by CS50
+- `images/` - Contain sample image
+- `filter`
+- `Makefile`
+
+---
+
+### 2. `volume/`
 
 Amplifies or softens a .wav file by adjusting each audio sample. Keeps the header intact while scaling sound by a user-given factor.
 
@@ -21,7 +37,7 @@ Amplifies or softens a .wav file by adjusting each audio sample. Keeps the heade
 
 ---
 
-### 2. `tideman/`
+### 3. `tideman/`
 
 This program implements the Tideman (Ranked Pairs) election method, where voters rank candidates by preference. It records, sorts, and locks pairs of winners and losers, avoiding cycles, to determine the overall election winner.
 
@@ -34,7 +50,7 @@ This program implements the Tideman (Ranked Pairs) election method, where voters
 
 ---
 
-### 3. `runoff/`
+### 4. `runoff/`
 
 This program simulates a runoff voting election where voters rank candidates in order of preference. It repeatedly eliminates the lowest-ranked candidates until one achieves a majority or a tie occurs.
 
@@ -47,7 +63,7 @@ This program simulates a runoff voting election where voters rank candidates in 
 
 ---
 
-### 4. `plurality/`
+### 5. `plurality/`
 
 This program simulates a plurality voting election where each voter casts one vote for a candidate. It tracks votes, validates inputs, and prints the candidate(s) with the most votes as the winner(s).
 
@@ -60,7 +76,7 @@ This program simulates a plurality voting election where each voter casts one vo
 
 ---
 
-### 5. `substitution/`
+### 6. `substitution/`
 
 This program encrypts text using a user-provided 26-letter substitution key. It validates the key for correctness, preserves letter case, and leaves non-letters unchanged.
 
@@ -73,7 +89,7 @@ This program encrypts text using a user-provided 26-letter substitution key. It 
 
 ---
 
-### 6. `caesar/`
+### 7. `caesar/`
 
 This program encrypts text using the Caesar cipher algorithm with a user-provided numeric key. It preserves letter case while shifting alphabetic characters, leaving non-letters unchanged.
 
@@ -86,7 +102,7 @@ This program encrypts text using the Caesar cipher algorithm with a user-provide
 
 ---
 
-### 7. `readability/`
+### 8. `readability/`
 
 This program analyzes a block of text and calculates its U.S. grade-level readability using the Coleman-Liau index. It counts letters, words, and sentences, then outputs the corresponding reading grade.
 
@@ -99,7 +115,7 @@ This program analyzes a block of text and calculates its U.S. grade-level readab
 
 ---
 
-### 8. `scrabble/`
+### 9. `scrabble/`
 
 A simple word point game played between two players, whose scoring is based on non-typical alphabets of english language used in your word. Player scoring more points win.
 
@@ -112,7 +128,7 @@ A simple word point game played between two players, whose scoring is based on n
 
 ---
 
-### 9. `credit/`
+### 10. `credit/`
 
 Implements a credit card validator using Luhn's Algorithm. Takes a credit card number as input and prints the card type (AMEX, MASTERCARD, VISA, or INVALID). Currently only the original (US Based Version) is made, I'm working on an Indian version and will update it soon.
 
@@ -127,7 +143,7 @@ Implements a credit card validator using Luhn's Algorithm. Takes a credit card n
 
 ---
 
-### 10. `cash/`
+### 11. `cash/`
 
 Implements a greedy algorithm to calculate the minimum number of coins needed to make change for a given dollar amount. Again, I'm also working on an Indian equivalent of this program.
 
@@ -142,7 +158,7 @@ Implements a greedy algorithm to calculate the minimum number of coins needed to
 
 ---
 
-### 11. `mario-less/`
+### 12. `mario-less/`
 
 Prints a right-aligned pyramid of hashes (#) similar to Mario from Super Mario Bros., using user-defined height.
 
@@ -155,7 +171,7 @@ Prints a right-aligned pyramid of hashes (#) similar to Mario from Super Mario B
 
 ---
 
-### 12. `mario-more/`
+### 13. `mario-more/`
 
 Prints a right-aligned pyramid and a left-aligned pyramid with a gap in the middle, a more advanced version of the Mario pyramid.
 
@@ -168,7 +184,7 @@ Prints a right-aligned pyramid and a left-aligned pyramid with a gap in the midd
 
 ---
 
-### 13. `me/`
+### 14. `me/`
 
 A simple program that prints your name using formatted input and output functions.
 
@@ -181,7 +197,7 @@ A simple program that prints your name using formatted input and output function
 
 ---
 
-### 14. `world/`
+### 15. `world/`
 
 My first "Hello, World!" program in C to get familiar with syntax and compilation.
 
