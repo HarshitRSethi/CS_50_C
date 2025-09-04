@@ -10,7 +10,7 @@ Each folder includes the source code, CS50 library, and (where applicable) an ex
 
 ### 1. `filter-more/`
 
-This file implements a complete suite of image processing functions — grayscale, reflect, blur, and edge detection — by directly manipulating pixel data at the byte level. From averaging color channels to applying Sobel operators, the code demonstrates both low-level memory handling and high-level algorithm design, resulting in transformations that alter brightness, orientation, sharpness, and feature detection of digital images. Please execute "ulimit -s unlimited" before running the program if on MacOs/Linux. If on windows, change stack size in compiler settings.
+This file implements four core image processing algorithms — grayscale, reflect, sepia, blur, and edge detection — by manipulating pixel data directly. It uses averaging, mirroring, Gaussian-like smoothing, and Sobel operators to transform digital images. Together, these functions demonstrate practical applications of loops, conditionals, and mathematical operations in C.
 
 **Files:**
 
