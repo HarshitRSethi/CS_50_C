@@ -8,13 +8,30 @@ Each folder includes the source code, CS50 library, and (where applicable) an ex
 
 ## 📁 Folder Structure
 
-### 1. `filter-less/`
+### 1. `filter-more/`
+
+This file implements a complete suite of image processing functions — grayscale, reflect, blur, and edge detection — by directly manipulating pixel data at the byte level. From averaging color channels to applying Sobel operators, the code demonstrates both low-level memory handling and high-level algorithm design, resulting in transformations that alter brightness, orientation, sharpness, and feature detection of digital images. Please execute "ulimit -s unlimited" before running the program if on MacOs/Linux. If on windows, change stack size in compiler settings.
+
+**Files:**
+
+- `filter.c` - Provided by CS 50
+- `bmp.h` - Provided by CS 50
+- `helpers.c` - written by me, contain the four filters algorithm
+- `helpers.h` - Provided by CS50
+- `images/` - Contain sample image
+- `filter`
+- `Makefile`
+
+---
+
+### 2. `filter-less/`
 
 This file implements three fundamental image transformations — grayscale, sepia, and reflect — which together demonstrate how pixel manipulation changes the look and feel of an image. Grayscale reduces each pixel to a uniform brightness, sepia adds a warm vintage tone, and reflect flips the image horizontally. Collectively, these functions showcase both the mathematical precision and logical structuring needed for image processing. It only work on .bmp images.
 
 **Files:**
 
 - `filter.c` - Provided by CS 50
+- `bmp.h` - Provided by CS 50
 - `helpers.c` - written by me, contain the three filters algorithm
 - `filter.h` - Provided by CS50
 - `helpers.h` - Provided by CS50
@@ -24,7 +41,7 @@ This file implements three fundamental image transformations — grayscale, sepi
 
 ---
 
-### 2. `volume/`
+### 3. `volume/`
 
 Amplifies or softens a .wav file by adjusting each audio sample. Keeps the header intact while scaling sound by a user-given factor.
 
@@ -37,7 +54,7 @@ Amplifies or softens a .wav file by adjusting each audio sample. Keeps the heade
 
 ---
 
-### 3. `tideman/`
+### 4. `tideman/`
 
 This program implements the Tideman (Ranked Pairs) election method, where voters rank candidates by preference. It records, sorts, and locks pairs of winners and losers, avoiding cycles, to determine the overall election winner.
 
@@ -50,7 +67,7 @@ This program implements the Tideman (Ranked Pairs) election method, where voters
 
 ---
 
-### 4. `runoff/`
+### 5. `runoff/`
 
 This program simulates a runoff voting election where voters rank candidates in order of preference. It repeatedly eliminates the lowest-ranked candidates until one achieves a majority or a tie occurs.
 
@@ -63,7 +80,7 @@ This program simulates a runoff voting election where voters rank candidates in 
 
 ---
 
-### 5. `plurality/`
+### 6. `plurality/`
 
 This program simulates a plurality voting election where each voter casts one vote for a candidate. It tracks votes, validates inputs, and prints the candidate(s) with the most votes as the winner(s).
 
@@ -76,7 +93,7 @@ This program simulates a plurality voting election where each voter casts one vo
 
 ---
 
-### 6. `substitution/`
+### 7. `substitution/`
 
 This program encrypts text using a user-provided 26-letter substitution key. It validates the key for correctness, preserves letter case, and leaves non-letters unchanged.
 
@@ -89,7 +106,7 @@ This program encrypts text using a user-provided 26-letter substitution key. It 
 
 ---
 
-### 7. `caesar/`
+### 8. `caesar/`
 
 This program encrypts text using the Caesar cipher algorithm with a user-provided numeric key. It preserves letter case while shifting alphabetic characters, leaving non-letters unchanged.
 
@@ -102,7 +119,7 @@ This program encrypts text using the Caesar cipher algorithm with a user-provide
 
 ---
 
-### 8. `readability/`
+### 9. `readability/`
 
 This program analyzes a block of text and calculates its U.S. grade-level readability using the Coleman-Liau index. It counts letters, words, and sentences, then outputs the corresponding reading grade.
 
@@ -115,7 +132,7 @@ This program analyzes a block of text and calculates its U.S. grade-level readab
 
 ---
 
-### 9. `scrabble/`
+### 10. `scrabble/`
 
 A simple word point game played between two players, whose scoring is based on non-typical alphabets of english language used in your word. Player scoring more points win.
 
@@ -128,7 +145,7 @@ A simple word point game played between two players, whose scoring is based on n
 
 ---
 
-### 10. `credit/`
+### 11. `credit/`
 
 Implements a credit card validator using Luhn's Algorithm. Takes a credit card number as input and prints the card type (AMEX, MASTERCARD, VISA, or INVALID). Currently only the original (US Based Version) is made, I'm working on an Indian version and will update it soon.
 
@@ -143,7 +160,7 @@ Implements a credit card validator using Luhn's Algorithm. Takes a credit card n
 
 ---
 
-### 11. `cash/`
+### 12. `cash/`
 
 Implements a greedy algorithm to calculate the minimum number of coins needed to make change for a given dollar amount. Again, I'm also working on an Indian equivalent of this program.
 
@@ -158,7 +175,7 @@ Implements a greedy algorithm to calculate the minimum number of coins needed to
 
 ---
 
-### 12. `mario-less/`
+### 13. `mario-less/`
 
 Prints a right-aligned pyramid of hashes (#) similar to Mario from Super Mario Bros., using user-defined height.
 
@@ -171,7 +188,7 @@ Prints a right-aligned pyramid of hashes (#) similar to Mario from Super Mario B
 
 ---
 
-### 13. `mario-more/`
+### 14. `mario-more/`
 
 Prints a right-aligned pyramid and a left-aligned pyramid with a gap in the middle, a more advanced version of the Mario pyramid.
 
@@ -184,7 +201,7 @@ Prints a right-aligned pyramid and a left-aligned pyramid with a gap in the midd
 
 ---
 
-### 14. `me/`
+### 15. `me/`
 
 A simple program that prints your name using formatted input and output functions.
 
@@ -197,7 +214,7 @@ A simple program that prints your name using formatted input and output function
 
 ---
 
-### 15. `world/`
+### 16. `world/`
 
 My first "Hello, World!" program in C to get familiar with syntax and compilation.
 
